@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "wqBBH02khoHb5KHdgGx14GLzIIClaLMJVxqJu8oOMnjKym3cmEk/C5Wn2va1UjA25dqd6mvIxdEOESHD+FOHVA==",
+  "dgSpecHash": "WJO9GcyT+Kwf1KK2VER5NWIoJKjoploXQo6HgxSyqV9a3PZGQ8/7cJPGLgsioSMHoRwirFHmAOxD2p29UXd/wg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\wende\\Documents\\Programacao\\CleanCode\\DemoCleanArchitecture\\CleanArchMvc\\CleanArchMvc.Domain\\CleanArchMvc.Domain.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/home/wendel/Documentos/Projetos/CleanArchitecture/CleanArchMvc/CleanArchMvc.Domain/CleanArchMvc.Domain.csproj",
+  "expectedPackageFiles": [
+    "/home/wendel/.nuget/packages/microsoft.netcore.app.ref/6.0.29/microsoft.netcore.app.ref.6.0.29.nupkg.sha512",
+    "/home/wendel/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.29/microsoft.aspnetcore.app.ref.6.0.29.nupkg.sha512"
+  ],
   "logs": []
 }
