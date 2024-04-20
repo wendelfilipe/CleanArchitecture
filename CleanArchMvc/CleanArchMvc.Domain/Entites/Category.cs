@@ -10,19 +10,19 @@ namespace CleanArchMvc.Domain.Entites
     public sealed class Category
     {
         // private set -> não pode ser alterado
-        public int Id { get; private set }
+        public int Id { get; private set; }
 
         public string Name { get; private set; }
 
         public Category(string name)
         {
-            ValidateDomian(name);
+            ValidateDomain(name);
         }
 
         public Category(int id, string name)
         {
             
-            DomainExceptionValidation.When(Id < 0, "Invalid Id value")
+            DomainExceptionValidation.When(Id < 0, "Invalid Id value");
             ValidateDomain(name);
         }
 

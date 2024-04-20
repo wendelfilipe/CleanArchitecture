@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "k2G8AOkxGT42VPownTCfXS5aNkDbvdVUxF7C7uI9eHyMmV1EseSlAybiMhfBBvwpazIs3JQgpA/vvx7x5POFOg==",
+  "dgSpecHash": "UJMF7RMKYfcqn3MWi6tEEchrvHaGPuzA9FAgjqXXK59dCOJzwmg9vYbxJOyQO2bxmC5RQ51l7AvFAC948bkR2w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\wende\\Documents\\Programacao\\Clean code\\DemoCleanArchitecture\\CleanArchMvc\\CleanArchMvc.Infra.Data\\CleanArchMvc.Infra.Data.csproj",
+  "projectFilePath": "C:\\Users\\wende\\Documents\\Programacao\\CleanCode\\DemoCleanArchitecture\\CleanArchMvc\\CleanArchMvc.Infra.Data\\CleanArchMvc.Infra.Data.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

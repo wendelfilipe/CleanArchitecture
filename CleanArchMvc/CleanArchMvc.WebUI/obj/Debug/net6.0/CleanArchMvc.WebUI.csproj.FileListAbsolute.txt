@@ -50,3 +50,12 @@ C:\Users\wende\Documents\Programacao\CleanCode\DemoCleanArchitecture\CleanArchMv
 C:\Users\wende\Documents\Programacao\CleanCode\DemoCleanArchitecture\CleanArchMvc\CleanArchMvc.WebUI\obj\Debug\net6.0\CleanArchMvc.WebUI.pdb
 C:\Users\wende\Documents\Programacao\CleanCode\DemoCleanArchitecture\CleanArchMvc\CleanArchMvc.WebUI\obj\Debug\net6.0\CleanArchMvc.WebUI.genruntimeconfig.cache
 C:\Users\wende\Documents\Programacao\CleanCode\DemoCleanArchitecture\CleanArchMvc\CleanArchMvc.WebUI\obj\Debug\net6.0\ref\CleanArchMvc.WebUI.dll
+C:\Users\wende\Documents\Programacao\CleanCode\DemoCleanArchitecture\CleanArchMvc\CleanArchMvc.WebUi\bin\Debug\net6.0\CleanArchMvc.Application.dll
+C:\Users\wende\Documents\Programacao\CleanCode\DemoCleanArchitecture\CleanArchMvc\CleanArchMvc.WebUi\bin\Debug\net6.0\CleanArchMvc.Domain.dll
+C:\Users\wende\Documents\Programacao\CleanCode\DemoCleanArchitecture\CleanArchMvc\CleanArchMvc.WebUi\bin\Debug\net6.0\CleanArchMvc.Infra.Data.dll
+C:\Users\wende\Documents\Programacao\CleanCode\DemoCleanArchitecture\CleanArchMvc\CleanArchMvc.WebUi\bin\Debug\net6.0\CleanArchMvc.Infra.Ioc.dll
+C:\Users\wende\Documents\Programacao\CleanCode\DemoCleanArchitecture\CleanArchMvc\CleanArchMvc.WebUi\bin\Debug\net6.0\CleanArchMvc.Infra.Ioc.pdb
+C:\Users\wende\Documents\Programacao\CleanCode\DemoCleanArchitecture\CleanArchMvc\CleanArchMvc.WebUi\bin\Debug\net6.0\CleanArchMvc.Application.pdb
+C:\Users\wende\Documents\Programacao\CleanCode\DemoCleanArchitecture\CleanArchMvc\CleanArchMvc.WebUi\bin\Debug\net6.0\CleanArchMvc.Domain.pdb
+C:\Users\wende\Documents\Programacao\CleanCode\DemoCleanArchitecture\CleanArchMvc\CleanArchMvc.WebUi\bin\Debug\net6.0\CleanArchMvc.Infra.Data.pdb
+C:\Users\wende\Documents\Programacao\CleanCode\DemoCleanArchitecture\CleanArchMvc\CleanArchMvc.WebUi\obj\Debug\net6.0\CleanArchMvc.WebUI.csproj.CopyComplete

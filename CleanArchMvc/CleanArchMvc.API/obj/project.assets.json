@@ -442,11 +442,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\wende\\Documents\\Programacao\\Clean code\\DemoCleanArchitecture\\CleanArchMvc\\CleanArchMvc.API\\CleanArchMvc.API.csproj",
+      "projectUniqueName": "C:\\Users\\wende\\Documents\\Programacao\\CleanCode\\DemoCleanArchitecture\\CleanArchMvc\\CleanArchMvc.API\\CleanArchMvc.API.csproj",
       "projectName": "CleanArchMvc.API",
-      "projectPath": "C:\\Users\\wende\\Documents\\Programacao\\Clean code\\DemoCleanArchitecture\\CleanArchMvc\\CleanArchMvc.API\\CleanArchMvc.API.csproj",
+      "projectPath": "C:\\Users\\wende\\Documents\\Programacao\\CleanCode\\DemoCleanArchitecture\\CleanArchMvc\\CleanArchMvc.API\\CleanArchMvc.API.csproj",
       "packagesPath": "C:\\Users\\wende\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\wende\\Documents\\Programacao\\Clean code\\DemoCleanArchitecture\\CleanArchMvc\\CleanArchMvc.API\\obj\\",
+      "outputPath": "C:\\Users\\wende\\Documents\\Programacao\\CleanCode\\DemoCleanArchitecture\\CleanArchMvc\\CleanArchMvc.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\wende\\AppData\\Roaming\\NuGet\\NuGet.Config"

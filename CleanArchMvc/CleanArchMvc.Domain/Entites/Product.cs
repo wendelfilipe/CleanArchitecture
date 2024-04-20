@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using CleanArchMvc.Domain.Validation;
 
 namespace CleanArchMvc.Domain.Entites
 {
@@ -15,6 +16,13 @@ namespace CleanArchMvc.Domain.Entites
         public decimal Price { get; private set; }
         public int Stock { get; private set; }
         public string Image { get; private set; }
+
+        public Product(int id, string name, string description, decimal price, int stock, string image)
+        {
+            DomainExceptionValidation.When(id < 0, "Invalid Id value");
+            Id = id;
+            ValidateDomain(name, description, price, stock, image);
+        }
 
         private void ValidateDomain(string name, string description, decimal price, int stock, string image)
         {
