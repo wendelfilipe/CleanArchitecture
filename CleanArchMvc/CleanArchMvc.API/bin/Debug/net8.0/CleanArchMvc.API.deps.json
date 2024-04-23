@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v8.0": {
       "CleanArchMvc.API/1.0.0": {
         "dependencies": {
+          "CleanArchMvc.Infra.Ioc": "1.0.0",
           "Microsoft.AspNetCore.OpenApi": "8.0.4",
           "Swashbuckle.AspNetCore": "6.4.0"
         },
@@ -72,6 +73,37 @@
             "fileVersion": "6.4.0.0"
           }
         }
+      },
+      "CleanArchMvc.Application/1.0.0": {
+        "dependencies": {
+          "CleanArchMvc.Domain": "1.0.0"
+        },
+        "runtime": {
+          "CleanArchMvc.Application.dll": {}
+        }
+      },
+      "CleanArchMvc.Domain/1.0.0": {
+        "runtime": {
+          "CleanArchMvc.Domain.dll": {}
+        }
+      },
+      "CleanArchMvc.Infra.Data/1.0.0": {
+        "dependencies": {
+          "CleanArchMvc.Domain": "1.0.0"
+        },
+        "runtime": {
+          "CleanArchMvc.Infra.Data.dll": {}
+        }
+      },
+      "CleanArchMvc.Infra.Ioc/1.0.0": {
+        "dependencies": {
+          "CleanArchMvc.Application": "1.0.0",
+          "CleanArchMvc.Domain": "1.0.0",
+          "CleanArchMvc.Infra.Data": "1.0.0"
+        },
+        "runtime": {
+          "CleanArchMvc.Infra.Ioc.dll": {}
+        }
       }
     }
   },
@@ -129,6 +161,26 @@
       "sha512": "sha512-1Hh3atb3pi8c+v7n4/3N80Jj8RvLOXgWxzix6w3OZhB7zBGRwsy7FWr4e3hwgPweSBpwfElqj4V4nkjYabH9nQ==",
       "path": "swashbuckle.aspnetcore.swaggerui/6.4.0",
       "hashPath": "swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
+    },
+    "CleanArchMvc.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CleanArchMvc.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CleanArchMvc.Infra.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CleanArchMvc.Infra.Ioc/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }
