@@ -1,10 +1,10 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {
+    "net8.0": {
       "CleanArchMvc.Application/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
+        "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "CleanArchMvc.Domain": "1.0.0"
         },
@@ -17,7 +17,7 @@
       },
       "CleanArchMvc.Domain/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
+        "framework": ".NETCoreApp,Version=v8.0",
         "compile": {
           "bin/placeholder/CleanArchMvc.Domain.dll": {}
         },
@@ -27,7 +27,7 @@
       },
       "CleanArchMvc.Infra.Data/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
+        "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "CleanArchMvc.Domain": "1.0.0"
         },
@@ -58,7 +58,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net6.0": [
+    "net8.0": [
       "CleanArchMvc.Application >= 1.0.0",
       "CleanArchMvc.Domain >= 1.0.0",
       "CleanArchMvc.Infra.Data >= 1.0.0"
@@ -70,33 +70,33 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/wendel/Documentos/Projetos/CleanArchitecture/CleanArchMvc/CleanArchMvc.Infra.Ioc/CleanArchMvc.Infra.Ioc.csproj",
+      "projectUniqueName": "/home/wendel/Documentos/Estudos/CleanArchitecture/CleanArchMvc/CleanArchMvc.Infra.Ioc/CleanArchMvc.Infra.Ioc.csproj",
       "projectName": "CleanArchMvc.Infra.Ioc",
-      "projectPath": "/home/wendel/Documentos/Projetos/CleanArchitecture/CleanArchMvc/CleanArchMvc.Infra.Ioc/CleanArchMvc.Infra.Ioc.csproj",
+      "projectPath": "/home/wendel/Documentos/Estudos/CleanArchitecture/CleanArchMvc/CleanArchMvc.Infra.Ioc/CleanArchMvc.Infra.Ioc.csproj",
       "packagesPath": "/home/wendel/.nuget/packages/",
-      "outputPath": "/home/wendel/Documentos/Projetos/CleanArchitecture/CleanArchMvc/CleanArchMvc.Infra.Ioc/obj/",
+      "outputPath": "/home/wendel/Documentos/Estudos/CleanArchitecture/CleanArchMvc/CleanArchMvc.Infra.Ioc/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/wendel/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
-        "net6.0"
+        "net8.0"
       ],
       "sources": {
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "projectReferences": {
-            "/home/wendel/Documentos/Projetos/CleanArchitecture/CleanArchMvc/CleanArchMvc.Application/CleanArchMvc.Application.csproj": {
-              "projectPath": "/home/wendel/Documentos/Projetos/CleanArchitecture/CleanArchMvc/CleanArchMvc.Application/CleanArchMvc.Application.csproj"
+            "/home/wendel/Documentos/Estudos/CleanArchitecture/CleanArchMvc/CleanArchMvc.Application/CleanArchMvc.Application.csproj": {
+              "projectPath": "/home/wendel/Documentos/Estudos/CleanArchitecture/CleanArchMvc/CleanArchMvc.Application/CleanArchMvc.Application.csproj"
             },
-            "/home/wendel/Documentos/Projetos/CleanArchitecture/CleanArchMvc/CleanArchMvc.Domain/CleanArchMvc.Domain.csproj": {
-              "projectPath": "/home/wendel/Documentos/Projetos/CleanArchitecture/CleanArchMvc/CleanArchMvc.Domain/CleanArchMvc.Domain.csproj"
+            "/home/wendel/Documentos/Estudos/CleanArchitecture/CleanArchMvc/CleanArchMvc.Domain/CleanArchMvc.Domain.csproj": {
+              "projectPath": "/home/wendel/Documentos/Estudos/CleanArchitecture/CleanArchMvc/CleanArchMvc.Domain/CleanArchMvc.Domain.csproj"
             },
-            "/home/wendel/Documentos/Projetos/CleanArchitecture/CleanArchMvc/CleanArchMvc.Infra.Data/CleanArchMvc.Infra.Data.csproj": {
-              "projectPath": "/home/wendel/Documentos/Projetos/CleanArchitecture/CleanArchMvc/CleanArchMvc.Infra.Data/CleanArchMvc.Infra.Data.csproj"
+            "/home/wendel/Documentos/Estudos/CleanArchitecture/CleanArchMvc/CleanArchMvc.Infra.Data/CleanArchMvc.Infra.Data.csproj": {
+              "projectPath": "/home/wendel/Documentos/Estudos/CleanArchitecture/CleanArchMvc/CleanArchMvc.Infra.Data/CleanArchMvc.Infra.Data.csproj"
             }
           }
         }
@@ -113,8 +113,8 @@
       }
     },
     "frameworks": {
-      "net6.0": {
-        "targetAlias": "net6.0",
+      "net8.0": {
+        "targetAlias": "net8.0",
         "imports": [
           "net461",
           "net462",
@@ -126,22 +126,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[6.0.29, 6.0.29]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[6.0.29, 6.0.29]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.204/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.204/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

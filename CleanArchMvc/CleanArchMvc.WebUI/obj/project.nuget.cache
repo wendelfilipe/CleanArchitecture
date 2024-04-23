@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pFoEh7ibBE8IIqlVLX6S7RB6tLrFXnv+Su52EtTmFji0xluwacKE+cqSb5T36DlIm5HsSlKerEmQzOuTaTb9dg==",
+  "dgSpecHash": "G3D7w4jTAjxnowGbbXLxc4hb8gfhfIF9BfOJqSd0jocLsKpPxORl40iXT3khWG1vpHxFYUgUBF+3N+YZCHzx2A==",
   "success": true,
-  "projectFilePath": "/home/wendel/Documentos/Projetos/CleanArchitecture/CleanArchMvc/CleanArchMvc.WebUI/CleanArchMvc.WebUI.csproj",
+  "projectFilePath": "/home/wendel/Documentos/Estudos/CleanArchitecture/CleanArchMvc/CleanArchMvc.WebUI/CleanArchMvc.WebUI.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -1,33 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "/home/wendel/Documentos/Projetos/CleanArchitecture/CleanArchMvc/CleanArchMvc.Application/CleanArchMvc.Application.csproj": {}
+    "/home/wendel/Documentos/Estudos/CleanArchitecture/CleanArchMvc/CleanArchMvc.Application/CleanArchMvc.Application.csproj": {}
   },
   "projects": {
-    "/home/wendel/Documentos/Projetos/CleanArchitecture/CleanArchMvc/CleanArchMvc.Application/CleanArchMvc.Application.csproj": {
+    "/home/wendel/Documentos/Estudos/CleanArchitecture/CleanArchMvc/CleanArchMvc.Application/CleanArchMvc.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/wendel/Documentos/Projetos/CleanArchitecture/CleanArchMvc/CleanArchMvc.Application/CleanArchMvc.Application.csproj",
+        "projectUniqueName": "/home/wendel/Documentos/Estudos/CleanArchitecture/CleanArchMvc/CleanArchMvc.Application/CleanArchMvc.Application.csproj",
         "projectName": "CleanArchMvc.Application",
-        "projectPath": "/home/wendel/Documentos/Projetos/CleanArchitecture/CleanArchMvc/CleanArchMvc.Application/CleanArchMvc.Application.csproj",
+        "projectPath": "/home/wendel/Documentos/Estudos/CleanArchitecture/CleanArchMvc/CleanArchMvc.Application/CleanArchMvc.Application.csproj",
         "packagesPath": "/home/wendel/.nuget/packages/",
-        "outputPath": "/home/wendel/Documentos/Projetos/CleanArchitecture/CleanArchMvc/CleanArchMvc.Application/obj/",
+        "outputPath": "/home/wendel/Documentos/Estudos/CleanArchitecture/CleanArchMvc/CleanArchMvc.Application/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/wendel/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net8.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {
-              "/home/wendel/Documentos/Projetos/CleanArchitecture/CleanArchMvc/CleanArchMvc.Domain/CleanArchMvc.Domain.csproj": {
-                "projectPath": "/home/wendel/Documentos/Projetos/CleanArchitecture/CleanArchMvc/CleanArchMvc.Domain/CleanArchMvc.Domain.csproj"
+              "/home/wendel/Documentos/Estudos/CleanArchitecture/CleanArchMvc/CleanArchMvc.Domain/CleanArchMvc.Domain.csproj": {
+                "projectPath": "/home/wendel/Documentos/Estudos/CleanArchitecture/CleanArchMvc/CleanArchMvc.Domain/CleanArchMvc.Domain.csproj"
               }
             }
           }
@@ -44,8 +44,8 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "imports": [
             "net461",
             "net462",
@@ -57,46 +57,36 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.29, 6.0.29]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.29, 6.0.29]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.204/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/wendel/Documentos/Projetos/CleanArchitecture/CleanArchMvc/CleanArchMvc.Domain/CleanArchMvc.Domain.csproj": {
+    "/home/wendel/Documentos/Estudos/CleanArchitecture/CleanArchMvc/CleanArchMvc.Domain/CleanArchMvc.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/wendel/Documentos/Projetos/CleanArchitecture/CleanArchMvc/CleanArchMvc.Domain/CleanArchMvc.Domain.csproj",
+        "projectUniqueName": "/home/wendel/Documentos/Estudos/CleanArchitecture/CleanArchMvc/CleanArchMvc.Domain/CleanArchMvc.Domain.csproj",
         "projectName": "CleanArchMvc.Domain",
-        "projectPath": "/home/wendel/Documentos/Projetos/CleanArchitecture/CleanArchMvc/CleanArchMvc.Domain/CleanArchMvc.Domain.csproj",
+        "projectPath": "/home/wendel/Documentos/Estudos/CleanArchitecture/CleanArchMvc/CleanArchMvc.Domain/CleanArchMvc.Domain.csproj",
         "packagesPath": "/home/wendel/.nuget/packages/",
-        "outputPath": "/home/wendel/Documentos/Projetos/CleanArchitecture/CleanArchMvc/CleanArchMvc.Domain/obj/",
+        "outputPath": "/home/wendel/Documentos/Estudos/CleanArchitecture/CleanArchMvc/CleanArchMvc.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/wendel/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net8.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -112,8 +102,8 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "imports": [
             "net461",
             "net462",
@@ -125,22 +115,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.29, 6.0.29]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.29, 6.0.29]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.204/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

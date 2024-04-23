@@ -1,11 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AO6jQtgfcEdX9rfkat4O2SD9k33661hbybym0edovvbQhDpRuurn6Hy1syCOvaVHlxBTMti9S/rNVks4f8+zWg==",
+  "dgSpecHash": "+fitw78/b80kmYd5DXjjCZKj1InNwz/yL4p5uoNd8CXIu6AFYZWBEBKzzovai1Saepr70Xu1tlpdCGtfKKDj2Q==",
   "success": true,
-  "projectFilePath": "/home/wendel/Documentos/Projetos/CleanArchitecture/CleanArchMvc/CleanArchMvc.Infra.Data/CleanArchMvc.Infra.Data.csproj",
-  "expectedPackageFiles": [
-    "/home/wendel/.nuget/packages/microsoft.netcore.app.ref/6.0.29/microsoft.netcore.app.ref.6.0.29.nupkg.sha512",
-    "/home/wendel/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.29/microsoft.aspnetcore.app.ref.6.0.29.nupkg.sha512"
-  ],
+  "projectFilePath": "/home/wendel/Documentos/Estudos/CleanArchitecture/CleanArchMvc/CleanArchMvc.Infra.Data/CleanArchMvc.Infra.Data.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

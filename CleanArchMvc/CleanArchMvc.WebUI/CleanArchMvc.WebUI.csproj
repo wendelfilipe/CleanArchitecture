@@ -5,5 +5,8 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
+<ItemGroup>
+  <ProjectReference Include="..\CleanArchMvc.Infra.Ioc\CleanArchMvc.Infra.Ioc.csproj" />
+</ItemGroup>
 
 </Project>
