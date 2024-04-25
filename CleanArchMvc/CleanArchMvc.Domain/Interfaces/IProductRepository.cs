@@ -6,12 +6,12 @@ using CleanArchMvc.Domain.Entites;
 
 namespace CleanArchMvc.Domain.Interfaces
 {
-    public interface IProductInterfaces
+    public interface IProductRepository
     {
         Task<IEnumerable<Product>> GetAllAsync();
         Task<Product> GetByIdAsync(int id);
-        Task<Product> CreateAsync(Category category);
-        Task<Product> UpdateAsync(Category category);
+        Task<Product> CreateAsync(Product product);
+        Task<Product> UpdateAsync(Product product);
         Task<Product> DeleteAsync(int id);
     }
 }

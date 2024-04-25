@@ -38,5 +38,7 @@ namespace CleanArchMvc.Domain.Entites
                  
             Name = name;
         }
+
+        public ICollection<Product> Products { get; private set; }
     }
 }

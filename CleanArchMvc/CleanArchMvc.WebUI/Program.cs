@@ -1,7 +1,22 @@
+using CleanArchMvc.Domain.Interfaces;
+using CleanArchMvc.Infra.Data.Context;
+using CleanArchMvc.Infra.Data.Repositories;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddDbContext<ApplicationDbContext>(
+    options => options.UseNpgsql(
+        builder.Configuration.GetConnectionString("postgresql"),
+        b => b.MigrationsAssembly(typeof(ApplicationDbContext).Assembly.FullName)
+    )
+);
+
+builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
+builder.Services.AddScoped<IProductRepository, ProductRepository>();
 
 var app = builder.Build();
 
