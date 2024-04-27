@@ -577,6 +577,7 @@
       "CleanArchMvc.Application/1.0.0": {
         "dependencies": {
           "AutoMapper": "12.0.1",
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.1",
           "CleanArchMvc.Domain": "1.0.0"
         },
         "runtime": {
@@ -603,6 +604,7 @@
       },
       "CleanArchMvc.Infra.Ioc/1.0.0": {
         "dependencies": {
+          "AutoMapper": "12.0.1",
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.1",
           "CleanArchMvc.Application": "1.0.0",
           "CleanArchMvc.Domain": "1.0.0",
