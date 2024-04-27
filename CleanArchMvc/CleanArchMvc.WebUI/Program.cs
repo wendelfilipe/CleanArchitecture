@@ -1,6 +1,8 @@
+using CleanArchMvc.Domain.Entites;
 using CleanArchMvc.Domain.Interfaces;
 using CleanArchMvc.Infra.Data.Context;
 using CleanArchMvc.Infra.Data.Repositories;
+using CleanArchMvc.Infra.Ioc;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -8,15 +10,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
-builder.Services.AddDbContext<ApplicationDbContext>(
-    options => options.UseNpgsql(
-        builder.Configuration.GetConnectionString("postgresql"),
-        b => b.MigrationsAssembly(typeof(ApplicationDbContext).Assembly.FullName)
-    )
-);
-
-builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
-builder.Services.AddScoped<IProductRepository, ProductRepository>();
+DependecyInjection.AddInfrastructure(builder.Services, builder.Configuration);
 
 var app = builder.Build();
 
@@ -37,6 +31,6 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=Category}/{action=Index}/{id?}");
 
 app.Run();
