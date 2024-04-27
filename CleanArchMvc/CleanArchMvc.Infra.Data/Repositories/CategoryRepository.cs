@@ -25,9 +25,8 @@ namespace CleanArchMvc.Infra.Data.Repositories
             return category;
         }
 
-        public async Task<Category> DeleteAsync(int id)
+        public async Task<Category> DeleteAsync(Category category)
         {
-            var category = context.Categories.Find(id);
             context.Categories.Remove(category);
             await context.SaveChangesAsync();
 
@@ -39,7 +38,7 @@ namespace CleanArchMvc.Infra.Data.Repositories
             return await context.Categories.ToListAsync();
         }
 
-        public async Task<Category> GetByIdAsync(int id)
+        public async Task<Category> GetByIdAsync(int? id)
         {
             return await context.Categories.FindAsync(id); 
         }

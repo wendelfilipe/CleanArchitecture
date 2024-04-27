@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "Nq2ib3CJpTNl3RjiUTe/JcrUK+DP4vtczHICpqxLtfbfI4R9CaacodKZlC3DXpQI2dfc6e6ca46j3by0uKm09w==",
+  "dgSpecHash": "QJ0UM7zFKWtrVhSdkrv4A69tuWa8iFQtB+HD6vMoEQeieGxlFYB7StsWXofegV0oJbb1JxDCkLHWXhXjdZ1PrA==",
   "success": true,
   "projectFilePath": "/home/wendel/Documentos/Estudos/CleanArchitecture/CleanArchMvc/CleanArchMvc.Infra.Ioc/CleanArchMvc.Infra.Ioc.csproj",
   "expectedPackageFiles": [
+    "/home/wendel/.nuget/packages/automapper/12.0.1/automapper.12.0.1.nupkg.sha512",
+    "/home/wendel/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.1/automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "/home/wendel/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/home/wendel/.nuget/packages/microsoft.bcl.asyncinterfaces/6.0.0/microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "/home/wendel/.nuget/packages/microsoft.codeanalysis.analyzers/3.3.3/microsoft.codeanalysis.analyzers.3.3.3.nupkg.sha512",
@@ -11,6 +13,7 @@
     "/home/wendel/.nuget/packages/microsoft.codeanalysis.csharp/4.5.0/microsoft.codeanalysis.csharp.4.5.0.nupkg.sha512",
     "/home/wendel/.nuget/packages/microsoft.codeanalysis.csharp.workspaces/4.5.0/microsoft.codeanalysis.csharp.workspaces.4.5.0.nupkg.sha512",
     "/home/wendel/.nuget/packages/microsoft.codeanalysis.workspaces.common/4.5.0/microsoft.codeanalysis.workspaces.common.4.5.0.nupkg.sha512",
+    "/home/wendel/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
     "/home/wendel/.nuget/packages/microsoft.entityframeworkcore/8.0.4/microsoft.entityframeworkcore.8.0.4.nupkg.sha512",
     "/home/wendel/.nuget/packages/microsoft.entityframeworkcore.abstractions/8.0.4/microsoft.entityframeworkcore.abstractions.8.0.4.nupkg.sha512",
     "/home/wendel/.nuget/packages/microsoft.entityframeworkcore.analyzers/8.0.4/microsoft.entityframeworkcore.analyzers.8.0.4.nupkg.sha512",
