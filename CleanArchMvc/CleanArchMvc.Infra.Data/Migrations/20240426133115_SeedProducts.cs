@@ -42,6 +42,9 @@ namespace CleanArchMvc.Infra.Data.Migrations
             migrationBuilder.Sql(
                                 "insert into products(Name, Description, Price, Stock, Image, CategoryId)" +
                                 "values('Estojo', 'Caderno espriral 80 folhas', 7.40, 40, 'estojo1.jpg', 2)");
+            migrationBuilder.Sql(
+            "insert into products(Name, Description, Price, Stock, Image, CategoryId)" +
+            "values('Estojo', 'Caderno espriral 80 folhas', 7.40, 40, 'estojo1.jpg', 2)");
         }
 
         /// <inheritdoc />

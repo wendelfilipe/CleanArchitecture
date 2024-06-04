@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "zpqtHoX+C5OSfdmntiCc9EnhrAjYlGbm5XY+qzU8B9uUxgS6tkq4v3XAH5G4c3dSOleDAw+CjS8rIHt9phkcRA==",
+  "dgSpecHash": "C8xHigMtnco8lxW5BVF94LZnhOsbeT4dwAfsmGdeeFEYrdat9wGnh/1cYnKK2HTKRTbMVmUAwJWre0wmHgrJCw==",
   "success": true,
   "projectFilePath": "/home/wendel/Documentos/Estudos/CleanArchitecture/CleanArchMvc/CleanArchMvc.Domain.Tests/CleanArchMvc.Domain.Tests.csproj",
   "expectedPackageFiles": [

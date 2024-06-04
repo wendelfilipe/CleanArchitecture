@@ -1,0 +1,73 @@
+@model IEnumerable<CleanArchMvc.Application.DTOs.ProductDTO>
+@{
+    ViewData["Title"] = "Products Management";
+}
+<style>
+    .modal-lg{
+        max-width:80%;
+    }
+</style>
+<div>
+    <h1>@ViewData["Title"]</h1>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <div>
+            <div class="pull-let">
+                <a asp-action="Create" class="btn btn-primary"></a>
+                <span title="Registrar New" class="fas fa-plus"></span>
+                Register New
+            </div>
+        </div>
+    </div>
+</div>
+<br />
+<div class="panel panel-default">
+    <table class="table table-stripped">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Name)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Description)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Price)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <body>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayNameFor(modelItem => modelItem.Name)
+                    </td>
+                    <td>
+                        @Html.DisplayNameFor(modelItem => modelItem.Description)
+                    </td>
+                    <td>
+                        @Html.DisplayNameFor(modelItem => modelItem.Price)
+                    </td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.Id" title="Edit" class="btn btn-warning">
+                            <span class="fas fa-edit">Edit</span>
+                        </a>
+                    </td>
+                    <td>
+                        <a asp-action="Details" asp-route-id="@item.Id" title="Details" class="btn btn-primary">
+                            <span class="fas fa-search">Details</span>
+                        </a>
+                    </td>
+                    <td>
+                        <a asp-action="Delete" asp-route-id="@item.Id" title="Delete" class="btn btn-danger">
+                            <span class="fas fa-trash-alt">Delete</span>
+                        </a>
+                    </td>
+                </tr>
+            }
+        </body>
+    </table>
+</div>
