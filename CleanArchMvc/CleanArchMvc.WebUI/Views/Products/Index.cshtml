@@ -43,13 +43,13 @@
             {
                 <tr>
                     <td>
-                        @Html.DisplayNameFor(modelItem => modelItem.Name)
+                        @Html.DisplayFor(modelItem => item.Name)
                     </td>
                     <td>
-                        @Html.DisplayNameFor(modelItem => modelItem.Description)
+                        @Html.DisplayFor(modelItem => item.Description)
                     </td>
                     <td>
-                        @Html.DisplayNameFor(modelItem => modelItem.Price)
+                        @Html.DisplayFor(modelItem => item.Price)
                     </td>
                     <td>
                         <a asp-action="Edit" asp-route-id="@item.Id" title="Edit" class="btn btn-warning">

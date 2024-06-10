@@ -5741,7 +5741,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/home/wendel/.dotnet/sdk/8.0.300/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/home/wendel/.dotnet/sdk/8.0.301/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
