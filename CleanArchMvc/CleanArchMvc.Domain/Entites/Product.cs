@@ -16,6 +16,11 @@ namespace CleanArchMvc.Domain.Entites
         public int Stock { get; private set; }
         public string Image { get; private set; }
 
+        public Product(string name, string description, decimal price, int stock, string image)
+        {
+            ValidateDomain(name, description, price, stock, image);
+        }
+
         public Product(int id, string name, string description, decimal price, int stock, string image)
         {
             DomainExceptionValidation.When(id < 0, "Invalid Id value");

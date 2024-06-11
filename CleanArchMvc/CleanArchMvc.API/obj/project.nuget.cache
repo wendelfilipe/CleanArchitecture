@@ -1,12 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "kkdpEQqYsvy7/SABv/Y+LcsS76JIqT9b8ybKlAz9pLhCOHWEPKWRxym682sLYJO9wA2jhuL4PhMxDd7TVXjJlw==",
+  "dgSpecHash": "PgCSeQFoFTkpdBdXOcNucEGZMMdAqO9q1qwlnh/JZUAVNynyWRQd8EHkVdoyEyffuiEhZ5lRR1DyHiWsg1Ng/w==",
   "success": true,
   "projectFilePath": "/home/wendel/Documentos/Estudos/CleanArchitecture/CleanArchMvc/CleanArchMvc.API/CleanArchMvc.API.csproj",
   "expectedPackageFiles": [
     "/home/wendel/.nuget/packages/automapper/12.0.1/automapper.12.0.1.nupkg.sha512",
     "/home/wendel/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.1/automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "/home/wendel/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
+    "/home/wendel/.nuget/packages/mediatr/12.3.0/mediatr.12.3.0.nupkg.sha512",
+    "/home/wendel/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
     "/home/wendel/.nuget/packages/microsoft.aspnetcore.openapi/8.0.4/microsoft.aspnetcore.openapi.8.0.4.nupkg.sha512",
     "/home/wendel/.nuget/packages/microsoft.bcl.asyncinterfaces/6.0.0/microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "/home/wendel/.nuget/packages/microsoft.codeanalysis.analyzers/3.3.3/microsoft.codeanalysis.analyzers.3.3.3.nupkg.sha512",

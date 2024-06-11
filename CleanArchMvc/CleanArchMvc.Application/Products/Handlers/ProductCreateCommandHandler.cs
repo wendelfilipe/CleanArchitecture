@@ -21,7 +21,7 @@ namespace CleanArchMvc.Application.Products.Handlers
             CancellationToken cancellationToken
         )
         {
-            var product = new Product(request.CategoryId, request.Name, request.Description, request.Price, request.Stock, request.Image);
+            var product = new Product(request.Name, request.Description, request.Price, request.Stock, request.Image);
 
             if(product == null)
             {

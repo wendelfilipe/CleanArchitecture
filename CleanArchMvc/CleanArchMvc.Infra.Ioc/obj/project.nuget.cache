@@ -1,12 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "P7dqP9ONH9w=",
+  "dgSpecHash": "FtKlBGiIEdMpyNf2k/aRbD7P1CJuDV8LGrjYebF3jJLaR6AdmW72z25qC4XJWvxaN+6BvlVfI3GFd8pSc5WVXQ==",
   "success": true,
   "projectFilePath": "/home/wendel/Documentos/Estudos/CleanArchitecture/CleanArchMvc/CleanArchMvc.Infra.Ioc/CleanArchMvc.Infra.Ioc.csproj",
   "expectedPackageFiles": [
     "/home/wendel/.nuget/packages/automapper/12.0.1/automapper.12.0.1.nupkg.sha512",
     "/home/wendel/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.1/automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "/home/wendel/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
+    "/home/wendel/.nuget/packages/mediatr/12.3.0/mediatr.12.3.0.nupkg.sha512",
+    "/home/wendel/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
     "/home/wendel/.nuget/packages/microsoft.bcl.asyncinterfaces/6.0.0/microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "/home/wendel/.nuget/packages/microsoft.codeanalysis.analyzers/3.3.3/microsoft.codeanalysis.analyzers.3.3.3.nupkg.sha512",
     "/home/wendel/.nuget/packages/microsoft.codeanalysis.common/4.5.0/microsoft.codeanalysis.common.4.5.0.nupkg.sha512",
