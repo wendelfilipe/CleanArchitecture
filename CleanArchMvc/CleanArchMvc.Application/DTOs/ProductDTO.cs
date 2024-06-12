@@ -32,7 +32,7 @@ namespace CleanArchMvc.Application.DTOs
         [Required(ErrorMessage = "The Stock is Required")]
         [Range(1, 9999)]
         [DisplayName("Stock")]
-        public decimal Stock { get; set; }
+        public int Stock { get; set; }
         [MaxLength(250)]
         [DisplayName("Product Image")]
         public string Image { get; set; }
