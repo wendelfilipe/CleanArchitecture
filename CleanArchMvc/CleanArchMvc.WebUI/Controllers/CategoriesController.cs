@@ -9,10 +9,10 @@ using Microsoft.Extensions.Logging;
 
 namespace CleanArchMvc.WebUI.Controllers
 {
-    public class CategoryController : Controller
+    public class CategoriesController : Controller
     {
         private readonly ICategoryService categoryService;
-        public CategoryController(ICategoryService categoryService)
+        public CategoriesController(ICategoryService categoryService)
         {
             this.categoryService = categoryService;
         }
