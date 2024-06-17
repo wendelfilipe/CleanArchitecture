@@ -14,9 +14,10 @@
     <div class="col-md-12">
         <div>
             <div class="pull-let">
-                <a asp-action="Create" class="btn btn-primary"></a>
+                <a asp-action="Create" class="btn btn-primary">
+                    Register New
+                </a>
                 <span title="Registrar New" class="fas fa-plus"></span>
-                Register New
             </div>
         </div>
     </div>
@@ -37,7 +38,7 @@
             {
                 <tr>
                     <td>
-                        @Html.DisplayNameFor(modelItem => modelItem.Name)
+                        @Html.DisplayFor(modelItem => item.Name)
                     </td>
                     <td>
                         <a asp-action="Edit" asp-route-id="@item.Id" title="Edit" class="btn btn-warning">
