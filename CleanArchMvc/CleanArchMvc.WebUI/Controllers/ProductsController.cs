@@ -2,17 +2,24 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using CleanArchMvc.Application.DTOs;
 using CleanArchMvc.Application.Interfaces;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace CleanArchMvc.WebUI.Controllers
 {
     public class ProductsController : Controller
     {
         private readonly IProductService productService;
-        public ProductsController(IProductService productService)
+        private readonly ICategoryService categoryService;
+        public ProductsController(
+            IProductService productService,
+            ICategoryService categoryService
+        )
         {
             this.productService = productService;
+            this.categoryService = categoryService;
         }
 
         [HttpGet]
@@ -21,5 +28,25 @@ namespace CleanArchMvc.WebUI.Controllers
             var products = await productService.GetProductsDTOAsync();
             return View(products);
         }
+
+        [HttpGet()]
+        public async Task<IActionResult> Create()
+        {
+            ViewBag.CategoryId = new SelectList(await categoryService.GetCategoriesDTOAsync(), "Id", "Name");
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Create(ProductDTO productDTO)
+        {
+            if(ModelState.IsValid)
+            {
+                await productService.CreateDTOAsync(productDTO);
+                return RedirectToAction(nameof(Index));
+            }
+
+            return View(productDTO);
+        }
+
     }
 }
