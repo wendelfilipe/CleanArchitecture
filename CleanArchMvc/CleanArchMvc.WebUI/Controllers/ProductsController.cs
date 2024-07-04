@@ -13,13 +13,16 @@ namespace CleanArchMvc.WebUI.Controllers
     {
         private readonly IProductService productService;
         private readonly ICategoryService categoryService;
+        private readonly IWebHostEnvironment environment;
         public ProductsController(
             IProductService productService,
-            ICategoryService categoryService
+            ICategoryService categoryService,
+            IWebHostEnvironment environment
         )
         {
             this.productService = productService;
             this.categoryService = categoryService;
+            this.environment = environment;
         }
 
         [HttpGet]
@@ -44,10 +47,14 @@ namespace CleanArchMvc.WebUI.Controllers
                 await productService.CreateDTOAsync(productDTO);
                 return RedirectToAction(nameof(Index));
             }
+            else
+            {
+                ViewBag.CategoryId = new SelectList( await categoryService.GetCategoriesDTOAsync(), "Id", "Name");
+            }
 
             return View(productDTO);
         }
-        [HttpGet]
+        [HttpGet()]
         public async Task<IActionResult> Edit(int? id)
         {
             if(id == null)
@@ -71,6 +78,41 @@ namespace CleanArchMvc.WebUI.Controllers
                 await productService.UpdateDTOAsync(productDTO);
                 return RedirectToAction(nameof(Index));
             }
+
+            return View(productDTO);
+        }
+
+        [HttpGet()]
+        public async Task<IActionResult> Delete(int? id)
+        {
+            if(id == null)
+                return NotFound();
+
+            var productDTO = await productService.GetByIdDTOAsync(id);
+
+            if(productDTO == null)
+                return NotFound();
+
+            return View(productDTO);
+        }
+        [HttpPost(), ActionName("Delete")]
+        public async Task<IActionResult> DeleteConfirmed(int id)
+        {
+            await productService.DeleteDTOAsync(id);
+            return RedirectToAction("Index");
+        }
+        
+        public async Task<IActionResult> Details(int? id)
+        {
+            if (id == null)
+                return NotFound();
+
+            var productDTO = await productService.GetByIdDTOAsync(id);
+
+            var wwwroot = environment.WebRootPath;
+            var image = Path.Combine(wwwroot, "images\\" + productDTO.Image);
+            var exists = System.IO.File.Exists(image);
+            ViewBag.ImageExist = exists;
 
             return View(productDTO);
         }

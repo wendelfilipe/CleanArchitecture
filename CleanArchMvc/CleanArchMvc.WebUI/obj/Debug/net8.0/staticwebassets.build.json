@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "/06jgC2N0XPxkUWZfcPySAeR/JwbpsyyAiUm1gNdb8A=",
+  "Hash": "C2LPZtZw1ZYNAoKC9ta3VjaIku8xrQaas7WSrXYtdjk=",
   "Source": "CleanArchMvc.WebUI",
   "BasePath": "_content/CleanArchMvc.WebUI",
   "Mode": "Default",
@@ -91,6 +91,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/favicon.ico"
+    },
+    {
+      "Identity": "/home/wendel/Documentos/Estudos/CleanArchitecture/CleanArchMvc/CleanArchMvc.WebUI/wwwroot/images/noimage.jpg",
+      "SourceId": "CleanArchMvc.WebUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/wendel/Documentos/Estudos/CleanArchitecture/CleanArchMvc/CleanArchMvc.WebUI/wwwroot/",
+      "BasePath": "_content/CleanArchMvc.WebUI",
+      "RelativePath": "images/noimage.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/noimage.jpg"
     },
     {
       "Identity": "/home/wendel/Documentos/Estudos/CleanArchitecture/CleanArchMvc/CleanArchMvc.WebUI/wwwroot/js/site.js",

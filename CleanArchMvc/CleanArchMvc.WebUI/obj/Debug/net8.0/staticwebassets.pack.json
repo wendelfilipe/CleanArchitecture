@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets/favicon.ico"
     },
     {
+      "Id": "/home/wendel/Documentos/Estudos/CleanArchitecture/CleanArchMvc/CleanArchMvc.WebUI/wwwroot/images/noimage.jpg",
+      "PackagePath": "staticwebassets/images/noimage.jpg"
+    },
+    {
       "Id": "/home/wendel/Documentos/Estudos/CleanArchitecture/CleanArchMvc/CleanArchMvc.WebUI/wwwroot/js/site.js",
       "PackagePath": "staticwebassets/js/site.js"
     },

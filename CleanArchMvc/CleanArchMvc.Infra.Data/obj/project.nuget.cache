@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "gbOU+qwP86sBsTTZooAYaoMwuubSrhVbO/smbCKfYKoziQUlc7QtuClvgQPHlUeiAefWdpP+i8xfaCHf3yPzJA==",
+  "dgSpecHash": "Sl5mpmWEPgM=",
   "success": true,
   "projectFilePath": "/home/wendel/Documentos/Estudos/CleanArchitecture/CleanArchMvc/CleanArchMvc.Infra.Data/CleanArchMvc.Infra.Data.csproj",
   "expectedPackageFiles": [
@@ -51,7 +51,7 @@
       "code": "NU1903",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Npgsql' 8.0.2 has a known high severity vulnerability, https://github.com/advisories/GHSA-x9vc-6hfv-hg8c",
+      "message": "O pacote 'Npgsql' 8.0.2 tem uma alta vulnerabilidade de gravidade conhecida, https://github.com/advisories/GHSA-x9vc-6hfv-hg8c",
       "libraryId": "Npgsql",
       "targetGraphs": [
         "net8.0"

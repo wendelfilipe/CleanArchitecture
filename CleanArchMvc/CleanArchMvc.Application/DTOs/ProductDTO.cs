@@ -16,12 +16,12 @@ namespace CleanArchMvc.Application.DTOs
         [MinLength(3)]
         [MaxLength(100)]
         [DisplayName("name")]
-        public string Name { get; set; }
+        public string? Name { get; set; }
         [Required(ErrorMessage = "The description is required")]
         [MinLength(3)]
         [MaxLength(100)]
         [DisplayName("description")]
-        public string Description { get; set; }
+        public string? Description { get; set; }
         [Required(ErrorMessage = "The price is required")]
         [Column(TypeName = "decimal(18,2)")]
         [DisplayFormat(DataFormatString = "{0:C2}")]
@@ -35,9 +35,9 @@ namespace CleanArchMvc.Application.DTOs
         public int Stock { get; set; }
         [MaxLength(250)]
         [DisplayName("Product Image")]
-        public string Image { get; set; }
+        public string? Image { get; set; }
         
-        public Category Category { get; set; }
+        public Category? Category { get; set; }
 
         [DisplayName("Categories")]
         public int CategoryId { get; set; }
