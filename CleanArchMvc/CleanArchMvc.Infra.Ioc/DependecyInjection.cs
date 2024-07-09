@@ -5,10 +5,13 @@ using System.Threading.Tasks;
 using CleanArchMvc.Application.Interfaces;
 using CleanArchMvc.Application.Mappings;
 using CleanArchMvc.Application.Services;
+using CleanArchMvc.Domain.Account;
 using CleanArchMvc.Domain.Entites;
 using CleanArchMvc.Domain.Interfaces;
 using CleanArchMvc.Infra.Data.Context;
+using CleanArchMvc.Infra.Data.Identity;
 using CleanArchMvc.Infra.Data.Repositories;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -27,6 +30,15 @@ namespace CleanArchMvc.Infra.Ioc
                     b => b.MigrationsAssembly(typeof(ApplicationDbContext).Assembly.FullName)
                 )
             );
+
+            services.ConfigureApplicationCookie(options => options.AccessDeniedPath = "/Account/Login");
+
+            services.AddIdentity<ApplicationUser, IdentityRole>()
+                .AddEntityFrameworkStores<ApplicationDbContext>()
+                .AddDefaultTokenProviders();
+            
+            services.AddScoped<IAuthenticate, AuthenticateService>();
+            services.AddScoped<ISeedUserRoleInitial, SeedUserRoleInitial>();
 
             services.AddScoped<ICategoryRepository, CategoryRepository>();
             services.AddScoped<IProductRepository, ProductRepository>();
