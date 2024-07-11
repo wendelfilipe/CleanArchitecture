@@ -5,11 +5,13 @@ using System.Linq;
 using System.Threading.Tasks;
 using CleanArchMvc.Application.DTOs;
 using CleanArchMvc.Application.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
 namespace CleanArchMvc.WebUI.Controllers
 {
+    [Authorize]
     public class CategoriesController : Controller
     {
         private readonly ICategoryService categoryService;
@@ -76,7 +78,7 @@ namespace CleanArchMvc.WebUI.Controllers
         }
 
         [HttpGet()]
-        public async Task<IActionResult> Detele(int? id)
+        public async Task<IActionResult> Delete(int? id)
         {
             if(id == null)
                 return NotFound();

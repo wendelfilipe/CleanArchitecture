@@ -1,9 +1,5 @@
-using CleanArchMvc.Domain.Entites;
-using CleanArchMvc.Domain.Interfaces;
-using CleanArchMvc.Infra.Data.Context;
-using CleanArchMvc.Infra.Data.Repositories;
+using CleanArchMvc.Domain.Account;
 using CleanArchMvc.Infra.Ioc;
-using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -27,6 +23,16 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
+using (var serviceScope = app.Services.CreateAsyncScope())
+{
+    var services = serviceScope.ServiceProvider;
+
+    var seedUserRoleInitial = services.GetRequiredService<ISeedUserRoleInitial>();
+
+    seedUserRoleInitial.SeedRoles();
+    seedUserRoleInitial.SeedUsers();
+}
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllerRoute(
