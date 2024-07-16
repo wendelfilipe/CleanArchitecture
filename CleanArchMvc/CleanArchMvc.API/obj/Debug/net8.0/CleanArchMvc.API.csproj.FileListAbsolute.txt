@@ -157,3 +157,11 @@
 /home/wendel/Documentos/Estudos/CleanArchitecture/CleanArchMvc/CleanArchMvc.API/bin/Debug/net8.0/Microsoft.Extensions.Identity.Stores.dll
 /home/wendel/Documentos/Estudos/CleanArchitecture/CleanArchMvc/CleanArchMvc.API/bin/Debug/net8.0/Microsoft.Extensions.Options.dll
 /home/wendel/Documentos/Estudos/CleanArchitecture/CleanArchMvc/CleanArchMvc.API/bin/Debug/net8.0/System.Security.Permissions.dll
+/home/wendel/Documentos/Estudos/CleanArchitecture/CleanArchMvc/CleanArchMvc.API/bin/Debug/net8.0/Microsoft.IdentityModel.Abstractions.dll
+/home/wendel/Documentos/Estudos/CleanArchitecture/CleanArchMvc/CleanArchMvc.API/bin/Debug/net8.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/home/wendel/Documentos/Estudos/CleanArchitecture/CleanArchMvc/CleanArchMvc.API/bin/Debug/net8.0/Microsoft.IdentityModel.Logging.dll
+/home/wendel/Documentos/Estudos/CleanArchitecture/CleanArchMvc/CleanArchMvc.API/bin/Debug/net8.0/Microsoft.IdentityModel.Tokens.dll
+/home/wendel/Documentos/Estudos/CleanArchitecture/CleanArchMvc/CleanArchMvc.API/bin/Debug/net8.0/System.IdentityModel.Tokens.Jwt.dll
+/home/wendel/Documentos/Estudos/CleanArchitecture/CleanArchMvc/CleanArchMvc.API/bin/Debug/net8.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/home/wendel/Documentos/Estudos/CleanArchitecture/CleanArchMvc/CleanArchMvc.API/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.dll
+/home/wendel/Documentos/Estudos/CleanArchitecture/CleanArchMvc/CleanArchMvc.API/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
