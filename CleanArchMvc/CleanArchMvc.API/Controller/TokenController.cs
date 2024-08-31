@@ -46,7 +46,7 @@ namespace CleanArchMvc.API.Controller
 
         [AllowAnonymous]
         [HttpPost("LoginUser")]
-        public async Task<ActionResult<UserToken>> Login ([FromBody] LoginModel useInfo)
+        public async Task<ActionResult<UserToken>> Login([FromBody] LoginModel useInfo)
         {
             var result = await authenticate.Authenticate(useInfo.Email, useInfo.Password);
 
